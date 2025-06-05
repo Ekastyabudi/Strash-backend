@@ -6,7 +6,7 @@ const init = async () => {
   try {
     const server = Hapi.server({
       port: process.env.PORT || 3005,
-      host: "0.0.0.0.0",
+      host: "0.0.0.0",
       routes: {
         cors: {
           origin: ["*"],
